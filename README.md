@@ -1,22 +1,31 @@
 # 09 Node.js Challenge: Professional README Generator
 
-This is a command-line application that dynamically generates a professional README.md file from a user's input. 
-It will include what the app is for, how to use the app, how to install it, how to reort issues and how to make contributions. 
+## Description
+------------
+This is a node.js application that uses the command-line to dynamically generate a professional README.md file from a user's input. 
+It will include what the app is for, how to use the app, how to install it, how to report issues and how to make contributions. 
 
-The following package will be used: 
+## Installation
+---
+```bash
+npm init 
+```
  [Inquirer package](https://www.npmjs.com/package/inquirer/v/8.2.4)
 
+## Usage
+---
 The application will be invoked by using the following command:
 
 ```bash
 node index.js
 ```
 
-Because this application won’t be deployed, you’ll also need to provide a link to a walkthrough video that demonstrates its functionality. Revisit the Screencastify Tutorial in the prework as a refresher on how to record video from your computer. You’ll need to submit a link to the video _and_ add it to the README of your project.
+The movie file showing the full functionaility of the application can be found here. 
+
 
 
 ## User Story
-
+---
 ```md
 AS A developer
 I WANT a README generator
@@ -24,7 +33,7 @@ SO THAT I can quickly create a professional README for a new project
 ```
 
 ## Acceptance Criteria
-
+---
 ```md
 GIVEN a command-line application that accepts user input
 WHEN I am prompted for information about my application repository
@@ -43,8 +52,9 @@ WHEN I click on the links in the Table of Contents
 THEN I am taken to the corresponding section of the README
 ```
 
-
-
+## Contribution
 ---
+Vivian Lee
 
-© 2022 Trilogy Education Services, LLC, a 2U, Inc. brand. Confidential and Proprietary. All Rights Reserved.
+
+
