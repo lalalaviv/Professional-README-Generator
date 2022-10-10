@@ -1,9 +1,9 @@
-# 09 Node.js Challenge: Professional README Generator
+# Professional README Generator
 
 ## Description
-------------
+---
 This is a node.js application that uses the command-line to dynamically generate a professional README.md file from a user's input. 
-It will include what the app is for, how to use the app, how to install it, how to report issues and how to make contributions. 
+It will ask the user for information on what the application is for, how to use the application, how to install it, how to report issues and how others can to make contributions to the application, and generate the README markdown file accordingly. 
 
 ## Installation
 ---
@@ -20,8 +20,14 @@ The application will be invoked by using the following command:
 node index.js
 ```
 
+## Demonstration
+
 The movie file showing the full functionaility of the application can be found here. 
 
+
+## License 
+----
+![License](https://img.shields.io/github/license/lalalaviv/Professional-README-Generator)
 
 
 ## User Story
@@ -51,10 +57,13 @@ THEN this is added to the section of the README entitled Questions, with instruc
 WHEN I click on the links in the Table of Contents
 THEN I am taken to the corresponding section of the README
 ```
+## Questions
+--- 
+Feel free to reach out if your have any enquiries
+<br/>
+GitHub: [@lalalaviv](https://github.com/lalalaviv)
 
-## Contribution
+## Credits
 ---
 Vivian Lee
-
-
 

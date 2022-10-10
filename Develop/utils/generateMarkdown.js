@@ -1,32 +1,48 @@
-// TODO: Create a function that returns a license badge based on which license is passed in
+// A function that returns a license badge based on which license is passed in
 // If there is no license, return an empty string
 function renderLicenseBadge(license) {
-  if (${data.license} === "MIT")
 
+  if (license === "None") {
+    return ``;
+  } else
+    return `[![license](https://img.shields.io/badge/license-${data.license}-blue)](${renderLicenseLink(license)})`
 }
 
-// TODO: Create a function that returns the license link
+
+
+// A function that returns the license link
 // If there is no license, return an empty string
 function renderLicenseLink(license) {
 
-  
-
-
-  [![license](https://img.shields.io/badge/license-${data.licensing}-blue)](https://shields.io)
-
+  if (license === "BSD 3-Clause"){
+    return`https://spdx.org/licenses/BSD-3-Clause.html`;
+  } if (license === "MIT"){
+    return `https://spdx.org/licenses/MIT.html`;
+  } if (license === "GNU-General-Public v3.0"){
+    return `https://spdx.org/licenses/GPL-3.0-or-later.html`;
+  } if (license === "None"){
+    return ``;
+  };
 }
-
-// TODO: Create a function that returns the license section of README
+  
+// A function that returns the license section of README
 // If there is no license, return an empty string
-function renderLicenseSection(license) {}
+function renderLicenseSection(license) { 
+  if(license === "None"){
+    return ``;
+  } else {
+  `## License
+  ----
+  This project is covered under the ${license} license.
+  Click on the license badge to learn more about it.`
+}
+}
 
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(data) {
   return `# ${data.title}
 
-## License
-----
-${data.license}
+${renderLicenseBadge(data.license)}
 
 ## Description
 ----
@@ -38,7 +54,7 @@ ${data.description}
 - [Description](#description)
 - [Installation](#installation)
 - [Usage](#usage)
-- [Contribute](#credits)
+- [How to contribute](#contribtution)
 - [Tests](#tests)
 - [Questions](#questions)
 
