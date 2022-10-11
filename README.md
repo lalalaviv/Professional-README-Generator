@@ -34,7 +34,8 @@ node index.js
 
 ## Demonstration
 
-The movie file showing the full functionaility of the application can be found here. 
+The following animation demonstrates the full functionaility of the application: 
+![A user types node index.js to the command-line and than answers a list of questions to help generate a README file for their project](./Develop/utils/Demo.mov)
 
 
 ## License 
