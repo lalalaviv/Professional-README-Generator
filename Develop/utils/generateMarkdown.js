@@ -5,7 +5,7 @@ function renderLicenseBadge(license) {
   if (license === "None") {
     return ``;
   } else
-    return `[![license](https://img.shields.io/badge/license-${data.license}-blue)](${renderLicenseLink(license)})`
+    return `[![license](https://img.shields.io/badge/license-${license}-blue)](${renderLicenseLink(license)})`
 }
 
 
@@ -38,48 +38,42 @@ function renderLicenseSection(license) {
 }
 }
 
-// TODO: Create a function to generate markdown for README
+// A function to generate markdown for README
 function generateMarkdown(data) {
   return `# ${data.title}
+
 
 ${renderLicenseBadge(data.license)}
 
 ## Description
-----
 ${data.description}
 
 ## Table of Contents
-----
 - [License](#license)
 - [Description](#description)
 - [Installation](#installation)
 - [Usage](#usage)
-- [How to contribute](#contribtution)
+- [Contributing](#contributing)
 - [Tests](#tests)
 - [Questions](#questions)
 
 ## Installation
-----
 ${data.installation}
 
 ## Usage
-----
 ${data.usage}
 
-
-## How to Contribute
-----
+## Contributing
 ${data.contribution}
 
 ## Tests
-----
 ${data.tests}
 
 ## Quesitons
-----
 
 GitHub: [@${data.username}](https://github.com/${data.username})
 
+Feel free to reach out if you have any enquires
 Email: ${data.contact}
 
 `;

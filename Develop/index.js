@@ -62,6 +62,7 @@ const questions = [
         }
     },
     {
+        // License used
         name: 'license',
         type: 'list',
         message: "Choose a license for your project",
@@ -76,6 +77,7 @@ const questions = [
         }
     },
     {
+        // Installation details
         name: 'installation',
         type: 'input',
         message: "What command should be run to install dependencies?",
@@ -89,6 +91,7 @@ const questions = [
         }
     },
     {
+        // Testing instructions
         name: 'tests',
         type: 'input',
         message: "What command should be run to test this project?",
@@ -102,6 +105,7 @@ const questions = [
         }
     },
     {
+        // Usage instructions
         name: 'usage',
         type: 'input',
         message: "What does the user need to know about using the repo?",
@@ -130,15 +134,15 @@ const questions = [
 ];
 
 
-// TODO: Create a function to write README file
+// A function that writes a README file
 function writeToFile(fileName, data) {
 
     fs.writeFile(fileName, data, (err) => {
-        err ? console.log(err) : console.log('Success! Information transferred to README file!')
+        err ? console.log(err) : console.log('Successfully transferred information to README file!')
     });
 }
 
-// TODO: Create a function to initialize app
+// Afunction to initialize app
 function init() {
     inquirer.prompt(questions)
         .then(function (userInput) {

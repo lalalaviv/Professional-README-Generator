@@ -2,14 +2,26 @@
 
 ## Description
 ---
-This is a node.js application that uses the command-line to dynamically generate a professional README.md file from a user's input. 
-It will ask the user for information on what the application is for, how to use the application, how to install it, how to report issues and how others can to make contributions to the application, and generate the README markdown file accordingly. 
+A key component of your project is a profressional README file, as it acts like a virtual storefront to a repository. 
+A good README file should include essential information about the repo's project, explaining what the application is and why the technologies in it was used. The quailty of a README file can differentiate a high-quailty project from the a low qulity one. 
+Although there is no one right way to structure a README file, there is one very wrong way, and that is to not have a README file at all. 
+<br/>
+With this README generator, there is no longer the need to create a professional README from scratch. 
+By answering a few questions on the command-line, this application is able to dynamically generate a professional README.md file with the information the user provides. 
+
 
 ## Installation
 ---
-```bash
-npm init 
-```
+Before attempting to use this application, you must have the follow programs installed to your computer: 
+
+- VS Code
+- GitBash
+- Node.js
+  
+  In the terminal of VS Code please install the following packages: 
+  ```bash
+  npm init -y
+  ```
  [Inquirer package](https://www.npmjs.com/package/inquirer/v/8.2.4)
 
 ## Usage
@@ -59,9 +71,10 @@ THEN I am taken to the corresponding section of the README
 ```
 ## Questions
 --- 
-Feel free to reach out if your have any enquiries
+Feel free to reach out if you have any enquiries
 <br/>
 GitHub: [@lalalaviv](https://github.com/lalalaviv)
+Email: lalala.viv@hotmail.com
 
 ## Credits
 ---
