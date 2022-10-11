@@ -75,6 +75,7 @@ THEN I am taken to the corresponding section of the README
 Feel free to reach out if you have any enquiries
 <br/>
 GitHub: [@lalalaviv](https://github.com/lalalaviv)
+<br/>
 Email: lalala.viv@hotmail.com
 
 ## Credits
