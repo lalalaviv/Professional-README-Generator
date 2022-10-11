@@ -35,7 +35,7 @@ node index.js
 ## Demonstration
 
 The following animation demonstrates the full functionaility of the application: 
-![A user types node index.js to the command-line and than answers a list of questions to help generate a README file for their project](./Develop/utils/Demo.mov)
+![Demo Video](https://user-images.githubusercontent.com/106384519/195020587-726e2bfe-a3e3-4603-b550-617412060a83.mp4)
 
 
 ## License 
