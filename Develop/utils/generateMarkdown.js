@@ -14,36 +14,38 @@ function renderLicenseBadge(license) {
 // If there is no license, return an empty string
 function renderLicenseLink(license) {
 
-  if (license === "BSD 3-Clause"){
-    return`https://spdx.org/licenses/BSD-3-Clause.html`;
-  } if (license === "MIT"){
+  if (license === "BSD") {
+    return `https://spdx.org/licenses/BSD-3-Clause.html`;
+  } if (license === "MIT") {
     return `https://spdx.org/licenses/MIT.html`;
-  } if (license === "GNU-General-Public v3.0"){
+  } if (license === "GNU") {
     return `https://spdx.org/licenses/GPL-3.0-or-later.html`;
-  } if (license === "None"){
+  } if (license === "None") {
     return ``;
   };
 }
-  
+
 // A function that returns the license section of README
 // If there is no license, return an empty string
-function renderLicenseSection(license) { 
-  if(license === "None"){
+function renderLicenseSection(license) {
+  if (license === "None") {
     return ``;
   } else {
-  `## License
+    return `## License
   ----
   This project is covered under the ${license} license.
   Click on the license badge to learn more about it.`
-}
+  }
 }
 
 // A function to generate markdown for README
 function generateMarkdown(data) {
   return `# ${data.title}
 
+  ${renderLicenseBadge(data.license)}
+  <br/>
+${renderLicenseSection()}
 
-${renderLicenseBadge(data.license)}
 
 ## Description
 ${data.description}
@@ -74,6 +76,7 @@ ${data.tests}
 GitHub: [@${data.username}](https://github.com/${data.username})
 
 Feel free to reach out if you have any enquires
+<br/>
 Email: ${data.contact}
 
 `;

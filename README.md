@@ -1,7 +1,7 @@
 # Professional README Generator
 
 ## Description
----
+
 A key component of your project is a profressional README file, as it acts like a virtual storefront to a repository. 
 A good README file should include essential information about the repo's project, explaining what the application is and why the technologies in it was used. The quailty of a README file can differentiate a high-quailty project from the a low qulity one. 
 Although there is no one right way to structure a README file, there is one very wrong way, and that is to not have a README file at all. 
@@ -11,7 +11,7 @@ By answering a few questions on the command-line, this application is able to dy
 
 
 ## Installation
----
+
 Before attempting to use this application, you must have the follow programs installed to your computer: 
 
 - VS Code
@@ -25,7 +25,7 @@ Before attempting to use this application, you must have the follow programs ins
  [Inquirer package](https://www.npmjs.com/package/inquirer/v/8.2.4)
 
 ## Usage
----
+
 The application will be invoked by using the following command:
 
 ```bash
@@ -38,7 +38,7 @@ The movie file showing the full functionaility of the application can be found h
 
 
 ## License 
-----
+
 ![License](https://img.shields.io/github/license/lalalaviv/Professional-README-Generator)
 
 
@@ -70,13 +70,13 @@ WHEN I click on the links in the Table of Contents
 THEN I am taken to the corresponding section of the README
 ```
 ## Questions
---- 
+
 Feel free to reach out if you have any enquiries
 <br/>
 GitHub: [@lalalaviv](https://github.com/lalalaviv)
 Email: lalala.viv@hotmail.com
 
 ## Credits
----
+
 Vivian Lee
 
